@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Akash 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Backend+Developer+Intern+%40+QSkill;MERN+Stack+Developer;CSE+Undergrad+%40+VIT-AP;200%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Backend+Developer+Intern+%40+QSkill;MERN+Stack+Developer;CSE+Undergrad+%40+VIT-AP" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 - 💼 Backend Developer Intern experience at **QSkill**
 - 🧠 MERN stack is my home ground — Node.js, Express, MongoDB, React
 - 🏆 Runner-up at **HackEd IT** (48-hour MERN hackathon) · Cleared Round 1 of **Hack2Skill**
-- 📈 Solved **200+ problems** on LeetCode
+- 📈 Solved **300+ problems** on LeetCode
 - 🌱 Currently exploring Next.js 14, Supabase, and deployment pipelines (Vercel/Render/Atlas)
 
 ---
