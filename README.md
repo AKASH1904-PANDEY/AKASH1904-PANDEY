@@ -33,13 +33,14 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| **FinMate** | Personal finance management app | MERN |
-| **TaskFlow** | Task manager with JWT refresh rotation, RBAC, Swagger docs, rate limiting — built for Primetrade.ai internship assignment | Node.js, Express, MongoDB, React |
-| **LearnFlow** | Learning dashboard with animated UI, deployed on Vercel — built for a frontend internship | Next.js 14, Supabase, Framer Motion |
-| **JobPortal & EventHub** | Two full MERN apps (job listings + event management), originally one combined project | MongoDB, Express, React, Node.js |
-| **Mood Board Generator** | Pinterest-style visual mood board tool | React, Vite |
+| **Healthcare Knowledge Navigator** | Medical RAG assistant with cited answers, confidence scoring, hybrid search (keyword + vector), role-based auth, and a researcher-submission / doctor-review workflow | Node.js, Express, MongoDB, LangChain.js, Gemini, React, Tailwind |
+| **Real-Time Fraud Detection** | Streams transactions through Kafka and scores them live with an XGBoost model (84.7% recall, 57.6% precision on a held-out test set), with an Isolation Forest baseline, a FastAPI `/score` endpoint, and a live alerts dashboard | Python, XGBoost, FastAPI, Kafka, Docker |
+| **Smart Resume Screener** | LLM-based resume parsing and job-description matching that scores fit 1–10 with justification and builds a ranked shortlist | Node.js, MongoDB Atlas, Gemini, React (Vite) |
+| **GitArchaeologist** | Finds dead code and scores code rot with natural-language queries over semantic embeddings, with a "Code Graveyard" dashboard (Appwrite Databases hackathon entry) | Node.js, Express, Appwrite VectorsDB, nomic-embed-text, Tailwind |
+| **CI/CD Pipeline** | [one-line description of what it automates] | [tools, e.g. GitHub Actions, Docker, ...] |
+| **FinMate** | Personal finance and expense tracker | MERN |
 
-> 📌 Pin these on your profile for extra visual impact — GitHub lets you pin up to 6 repos.
+> 📌 GitHub lets you pin up to 6 repos, so these six fit exactly.
 
 ---
 
