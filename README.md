@@ -37,7 +37,8 @@
 | **Real-Time Fraud Detection** | Streams transactions through Kafka and scores them live with an XGBoost model (84.7% recall, 57.6% precision on a held-out test set), with an Isolation Forest baseline, a FastAPI `/score` endpoint, and a live alerts dashboard | Python, XGBoost, FastAPI, Kafka, Docker |
 | **Smart Resume Screener** | LLM-based resume parsing and job-description matching that scores fit 1–10 with justification and builds a ranked shortlist | Node.js, MongoDB Atlas, Gemini, React (Vite) |
 | **GitArchaeologist** | Finds dead code and scores code rot with natural-language queries over semantic embeddings, with a "Code Graveyard" dashboard (Appwrite Databases hackathon entry) | Node.js, Express, Appwrite VectorsDB, nomic-embed-text, Tailwind |
-| **CI/CD Pipeline** | [one-line description of what it automates] | [tools, e.g. GitHub Actions, Docker, ...] |
+| **CI/CD Pipeline** | An autonomous agent that catches failed GitHub Actions runs, reads the logs, and uses Google Gemini to find the root cause and generate a fix.
+It can verify the patch in a sandbox, then opens a Pull Request with the fix and an explanation, so you only review and merge. |Node.js, Express, Google Gemini API (@google/genai), GitHub REST API (Octokit), GitHub Actions webhooks, ngrok|
 | **FinMate** | Personal finance and expense tracker | MERN |
 
 > 📌 GitHub lets you pin up to 6 repos, so these six fit exactly.
